@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<div id="content" role="main">
+  <div id="bodyContent">
+    <div id="mw-content-text" dir="ltr" lang="en" xml:lang="en">
+      <h2><span>1. &quot;Use Case One – Tablet Joins Home Network&quot;</span></h2>
+      <ul>
+        <li>Contributor: Bin Hu (AT&amp;T) (+UAWG)</li>
+        <li>Prerequisite:
+          <ul>
+            <li>Subscriber has a set-top box, and has subscribed to content service</li>
+            <li>Service Provider has specified a validity period of this subscription based on Service Provider's policy</li>
+            <li>Subscriber configures that the content service is discoverable as Local-Networked Service in home network</li>
+            <li>Subscriber buys a new Tablet</li>
+            <li>Subscription is valid during the course of this use case</li>
+            <li><strong>The tablet has built-in or added on Assistive Technology</strong></li>
+            <li><strong>Content presented to Subscriber is WCAG20 conformant</strong></li>
+            <li><strong>The User Agent is UAAG20 conformant</strong></li>
+          </ul>
+        </li>
+        <li>Use Case:
+          <ul>
+            <li>Subscriber <strong>using their voice recognition interface</strong> launches the &ldquo;service discovery&rdquo; application through the  browser of new Tablet, and &quot;taps&quot; the button &ldquo;Discover Service&rdquo;.</li>
+            <li>The browser starts to search for Local-Networked Service, and finds the Content Service provided by set-top box.</li>
+            <li>A local access control policy makes sure that the contents are appropriate to the subscriber&rsquo;s profile, such as age, subscription status, etc</li>
+            <li>Subscriber accepts <strong>using voice commands</strong> to turn on the Content Service on Tablet</li>
+            <li>Subscriber starts to enjoy the content service on both TV and Tablet, controlled <strong>using voice recognition on the tablet</strong> and synchronized according to user&rsquo;s instruction.</li>
+          </ul>
+        </li>
+        <li>Alternative:
+          <ul>
+            <li>Subscriber may have more than one set-top boxes, and may have subscribed to more than one content services</li>
+          </ul>
+        </li>
+      </ul>
+      <h2><span id="2._.22Use_Case_Two_.E2.80.93_TV_Triggers_2nd_Screen.22">2. &quot;Use Case Two – TV Triggers 2nd Screen&quot;</span></h2>
+      <ul>
+        <li>Contributor: Bin Hu (AT&amp;T) (+UAWG)</li>
+        <li>Prerequisite:
+          <ul>
+            <li>Subscriber has a Tablet<strong> with a screen reader </strong>paired to their set-top box (Use Case One), assuming</li>
+            <li>Content source is from set-top box</li>
+            <li>There may be more than one content sources from multiple set-top boxes</li>
+            <li>The validity period of this subscription, which is specified based on Service Provider's policy, does not expire during the course of this use case</li>
+            <li>A local access control policy makes sure that the contents are appropriate to the subscriber&rsquo;s profile, such as age, subscription status, etc</li>
+            <li><strong>The tablet has built-in or added on Assistive Technology</strong></li>
+            <li><strong>Content presented to Subscriber is WCAG20 conformant</strong></li>
+            <li><strong>The User Agent is UAAG20 conformant</strong></li>
+          </ul>
+        </li>
+        <li>Use Case:
+          <ul>
+            <li>A 30-minute episode is playing on the TV, and San Francisco is mentioned on the show at some point.</li>
+            <li>An overlay is triggered<strong> and announced</strong> on the tablet <strong>with the screen reader </strong>to invite the subscriber to explore the city of San Francisco further on the Tablet</li>
+            <li>The subscriber clicks the OK button on their set-top box remote app on the tablet</li>
+            <li><strong>An WCAG and UAAG conforming </strong>HTML5 application launches on the Tablet to show the subscriber the introduction to San Francisco
+              <ul>
+                <li>This HTML5 application may be a video player to show the introduction video</li>
+                <li>Or it may be another type of application to present the subscriber with the introduction content in any other form</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <h2><span id="3._.22Use_Case_Three_.E2.80.93_Tablet_EPG.22">3. &quot;Use Case Three – Tablet EPG&quot;</span></h2>
+      <ul>
+        <li>Contributor: Bin Hu (AT&amp;T) (+UAWG)</li>
+        <li>Prerequisite:
+          <ul>
+            <li>Subscriber has a Tablet<strong> with an on-screen keyboard </strong>paired to their set-top box (Use Case One)</li>
+            <li>Subscriber is watching the Introduction to San Francisco (Use Case Two)</li>
+            <li>The validity period of this subscription, which is specified based on Service Provider's policy, does not expire during the course of this use case</li>
+            <li><strong>The tablet has built-in or added on Assistive Technology</strong></li>
+            <li><strong>Content presented to Subscriber is WCAG20 conformant</strong></li>
+            <li><strong>The User Agent is UAAG20 conformant</strong></li>
+          </ul>
+        </li>
+        <li>Use Case:
+          <ul>
+            <li>At the end of the Introduction to San Francisco (Use Case Two), subscriber is presented with a list of classic movies related to San Francisco</li>
+            <li>A local access control policy makes sure that those movies are appropriate to the subscriber&rsquo;s profile, such as age, subscription status, etc</li>
+            <li>Subscriber browses this <strong>WCAG conforming </strong>EPG, and chooses &ldquo;The Bachelor&rdquo;</li>
+            <li>Subscriber taps the &ldquo;Launch on TV&rdquo; button</li>
+            <li>&ldquo;The Bachelor&rdquo; movie launches on TV&rsquo;s HTML5 browser</li>
+          </ul>
+        </li>
+        <li>Alternative Use Case
+          <ul>
+            <li>Subscriber taps the &ldquo;Launch on Tablet&rdquo; button</li>
+            <li>&ldquo;The Bachelor&rdquo; movie launches on Tablet&rsquo;s HTML5 browser</li>
+          </ul>
+        </li>
+        <li>Other Alternatives
+          <ul>
+            <li>The EPG may also show subscriber other applications, such as games</li>
+            <li>Subscriber may launch any application, such as games, in either Tablet or TV</li>
+            <li>Subscriber may use DVR to record the movie and watch later</li>
+            <li>Subscriber may save the recommendation and launch it later</li>
+          </ul>
+        </li>
+      </ul>
+      <h2><span id="4._.22Use_Case_Four_.E2.80.93_Content_Sharing.22">4. &quot;Use Case Four – Content Sharing&quot;</span></h2>
+      <ul>
+        <li>Contributor: Bin Hu (AT&amp;T) (+UAWG)</li>
+        <li>Prerequisite:
+          <ul>
+            <li>Subscriber has a Tablet<strong> with zoom enabled </strong>paired to their set-top box (Use Case One)</li>
+            <li>Subscriber is watching &ldquo;The Bachelor&rdquo; on TV (Use Case Three)</li>
+            <li>The validity period of this subscription, which is specified based on Service Provider's policy, does not expire during the course of this use case</li>
+            <li><strong>The tablet has built-in or added on Assistive Technology</strong></li>
+            <li><strong>Content presented to Subscriber is WCAG20 conformant</strong></li>
+            <li><strong>The User Agent is UAAG20 conformant</strong></li>
+          </ul>
+        </li>
+        <li>Use Case:
+          <ul>
+            <li>While watching &ldquo;The Bachelor &rdquo; on TV (Use Case Three), the subscriber comes across a &ldquo;Video Share Button&rdquo;<strong> that appears on the tablet via an accessible mechanism.</strong></li>
+            <li>The subscriber taps the button and shares a link to it on the Facebook account.</li>
+            <li>Subsequently, a Facebook friend taps the shared video link, and launches the video on his connected device.
+              <ul>
+                <li>It is very likely that &quot;launching the video&quot; may involve more steps than being launched directly, such as (1) reaching the appropriate content provider page; (2) a local access control policy makes sure that this movie is appropriate to the friend&rsquo;s profile, such as age, subscription status, etc; and (3) credential checking and/or making a payment, before the Facebook friend will be able to launch the video on his connected device.</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>Alternative Use Case
+          <ul>
+            <li>The friend can choose which device to launch the video – TV or Tablet, if he also has the same type of pairing of Tablet and TV.</li>
+          </ul>
+        </li>
+      </ul>
+      <h2><span id="5._.22Use_Case_Five_.E2.80.93_Content_Search.22">5. &quot;Use Case Five – Content Search&quot;</span></h2>
+      <ul>
+        <li>Contributor: Bin Hu (AT&amp;T) (+UAWG)</li>
+        <li>Prerequisite:
+          <ul>
+            <li>Subscriber has a Tablet <strong>with switch control active </strong>paired to their set-top box (Use Case One)</li>
+            <li>Subscriber has finished watching &ldquo;The Bachelor&rdquo; on TV (Use Case Four)</li>
+            <li>The validity period of this subscription, which is specified based on Service Provider's policy, does not expire during the course of this use case</li>
+            <li><strong>The tablet has built-in or added on Assistive Technology</strong></li>
+            <li><strong>Content presented to Subscriber is WCAG20 conformant</strong></li>
+            <li><strong>The User Agent is UAAG20 conformant</strong></li>
+          </ul>
+        </li>
+        <li>Use Case:
+          <ul>
+            <li>Subscriber executes<strong> via a scanning keyboard </strong>a search on the keyword &ldquo;Disney&rdquo; on his Tablet</li>
+            <li>Returned from this search is the list of Channels that relates to different aspects of Disney, such as movies, theme parks, games, stores etc.
+              <ul>
+                <li>A local access control policy makes sure that the contents are appropriate to the subscriber&rsquo;s profile, such as age, subscription status, etc</li>
+              </ul>
+            </li>
+            <li>The subscriber <strong>navigates to and activates</strong> Channel, and launches it on TV</li>
+          </ul>
+        </li>
+      </ul>
+      <h2><span id="6._.22Use_Case_Six_.E2.80.93_Tuner_Control_thru_Web_Application.22">6. &quot;Use Case Six – Tuner Control thru Web Application&quot;</span></h2>
+      <ul>
+        <li>Contributor: Sung Hei Kim &amp; Wook Hyun (ETRI) (+UAWG)</li>
+        <li>Prerequisite:
+          <ul>
+            <li>User has a device with a tuner capable of receiving a broadcast TV stream such as DTT, Sat or Cable.</li>
+            <li>The TV broadcasting service provider (or third party service provider) provides application such as EPG which can provide mapping information of the TV channel.</li>
+            <li>User launches an EPG web application, i.e., an application that contains channel identifier and detailed information regarding programs that are being broadcasted.</li>
+            <li>The web application is able to control the channel of the device with tuner.</li>
+            <li><strong>The tablet has built-in or added on Assistive Technology</strong></li>
+            <li><strong>Content presented to Subscriber is WCAG20 conformant</strong></li>
+            <li><strong>The User Agent is UAAG20 conformant</strong></li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>Use Case:
+          <ul>
+            <li>User launches the web application in the device with tuner.</li>
+            <li>User searches for the TV broadcasting program to watch.</li>
+            <li>The web application shows the EPG which has the list of TV programs and its related information such as channel number, producer, actors, synopsis, rate, duration length,<strong> caption availabilty, described video availability,</strong> etc.
+              <ul>
+                <li>Unlike EPG from conventional TV broadcasting service, this web application can provide more detailed information on the TV programming with more flexibility.</li>
+              </ul>
+            </li>
+            <li>User navigates through the EPG and selects a program to watch.</li>
+            <li>Web application controls the device with tuner using the channel ID from the EPG data, and the selected program is displayed in the web browser or web-based TV platform.
+              <ul>
+                <li>Channel ID can be expressed in form of a URI and TV stream can be embedded to the web browser.</li>
+                <li>Web application renders the video for the selected channel inside the page (as PiP or in fullscreen).</li>
+              </ul>
+            </li>
+            <li>Viewer can watch the broadcasting program while browsing through the list of other programs that are currently being broadcast with the use of the web application.</li>
+            <li>User selects a different channel; the web application controls the device to show the selected broadcasting media stream.</li>
+          </ul>
+        </li>
+      </ul>
+      <h2><span id="7._.22Use_Case_Seven_.E2.80.93_Channel_Bounded_Applications.22">7. &quot;Use Case Seven – Channel Bounded Applications&quot;</span></h2>
+      <ul>
+        <li>Contributor: Sung Hei Kim &amp; Wook Hyun (ETRI)</li>
+        <li>Prerequisite:
+     
+          <ul>
+            <li>User has a device with a tuner capable of receiving a broadcast TV stream such as DTT, Sat or Cable.</li>
+            <li>TV broadcasting service provider is capable of providing application information regarding broadcasted TV program or channel to the device with tuner.</li>
+            <li>TV broadcasting service provider provides a channel bounded application, i.e., a web application that provides contents related to the current broadcasting channel, and is terminated when the user changes to different channel.
+              <ul>
+                <li>Related contents can be a a list of programs to be broadcast afterward, events, SNS, detailed information of broadcasting contents such as disaster alarm information, stock quota, athlete stats, etc.</li>
+                <li>Channel bounded applications are designed by the pertaining broadcast service operator or trusted third-party.</li>
+              </ul>
+            </li>
+            <li>TV broadcasting service provider provides information on how to get the channel bounded application.</li>
+            <li>User configures the device to enable channel bounded application.</li>
+            <li><strong>The tablet has built-in or added on Assistive Technology</strong></li>
+            <li><strong>Content presented to Subscriber is WCAG20 conformant</strong></li>
+            <li><strong>The User Agent is UAAG20 conformant</strong></li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>Use Case:
+          <ul>
+            <li>User selects a TV channel which is showing a live football game.
+              <ul>
+                <li>Channel bounded application is launched by a signalling from the digital TV broadcasting provider of the selected channel.</li>
+              </ul>
+            </li>
+            <li>The browser shows the live football game along with the team statistics, list of the players, scores, chat-box, and other information as supplementary contents.
+              <ul>
+                <li>The supplementary contents can be contents related to the current broadcasting program, contents provided by the TV broadcaster, or local geographical-related information.</li>
+              </ul>
+            </li>
+            <li>While the live football game stops for a break, the subscriber changes to different channel which shows a popular drama.
+              <ul>
+                <li>As the user changes the channel, the channel bounded application of the previous channel is closed.</li>
+              </ul>
+            </li>
+            <li>The browser shows the popular drama along with list of the characters, title/singer of the OST in the current scene, brand name of the necklace shown, SNS, and other information as supplementary contents.
+              <ul>
+                <li>The channel bounded applications of the selected TV channel is launched for providing such supplementary contents.</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <h2><span id="8._.22Use_Case_Eight_.E2.80.93_Download_and_Go.22">8. &quot;Use Case Eight – Download and Go&quot;</span></h2>
+      <p>Description: Using a web browser, a user downloads a series of videos onto a tablet, intending to use them to entertain the kids on a road trip.</p>
+      <p>Alternative: Using a web browser, a user downloads a series of videos onto a TV with storages and then plays some of them on TV until midnight. After that, the user copies the stored video from TV to the smart phone via home network, intending to watch the rest of them in airplane on business trip.</p>
+      <p>Need/justification: Accessing live video streams may not be possible (e.g. no network, or per content provider policy) or desirable (e.g. due to data usage or low QoE) when mobile or away from home. Nonetheless with video-capable devices, there will be a desire to be able to watch videos even in those circumstances.</p>
+      <p>Status: WIP</p>
+      <p>Category: TBD, per <a rel="nofollow" href="http://www.w3.org/2011/webtv/wiki/Main_Page#Template_for_Use_Cases">Template for Use Cases</a>. It is unclear whether the following requirements can be met with current specifications or implementations.</p>
+      <p>Requirements:</p>
+<ul>
+        <li><strong>Accessibility
+          </strong>
+          <ul>
+            <li><strong>The tablet has built-in or added on Assistive Technology</strong></li>
+            <li><strong>Content presented to Subscriber is WCAG20 conformant</strong></li>
+            <li><strong>The User Agent is UAAG20 conformant        </strong></li>
+            <li><strong>All medthods are WCAG20 conformant</strong></li>
+          </ul>
+        </li>
+        <li>Download
+        </li>
+        <ul>
+          <li>A method of referencing video sources <strong>(including alternate media content - captions and/or descriptive video)</strong> for download, e.g. using anchor elements with <a rel="nofollow" href="http://www.w3.org/TR/html5/single-page.html#downloading-resources">the download attribute</a>.</li>
+        </ul>
+        <li>Content protection
+          <ul>
+            <li>Ability to store video content in a protected format, as applicable.</li>
+            <li>Ability to view previously stored protected video content, e.g. via the <a rel="nofollow" href="https://dvcs.w3.org/hg/html-media/raw-file/tip/encrypted-media/encrypted-media.html">HTML5 Encrypted Media Extensions</a></li>
+            <li>Ability to transfer media in a single operation (not copy-then-delete)</li>
+            <li>Ability to account &amp; verify the number of coexisting instances of the media</li>
+            <li>Ability to acquire content licenses of stored protected video contents for offline playback.</li>
+          </ul>
+        </li>
+        <li>Storage
+          <ul>
+            <li>An adequately-sized storage medium; at least enough to store several full movies, e.g. 32GB</li>
+            <li>A method of accessing the storage medium to save videos, e.g.
+              <ul>
+                <li>For local filesystem storage, the <a rel="nofollow" href="http://dev.w3.org/2009/dap/file-system/file-writer.html">File Writer API</a></li>
+                <li>For browser-internal storage, the <a rel="nofollow" href="http://www.w3.org/TR/IndexedDB/">IndexedDB API</a></li>
+              </ul>
+            </li>
+            <li>A method of specifying the validity duration of the content in offline storage</li>
+            <li>A method of clearing the content in offline storage when its validity period has expired</li>
+            <li>A method of browsing the content list in offline storage for download and playback</li>
+          </ul>
+        </li>
+        <li>Playback
+          <ul>
+            <li>A method of accessing the storage medium for video playback, e.g.
+              <ul>
+                <li>The <a rel="nofollow" href="http://www.w3.org/TR/FileAPI/">File API</a></li>
+                <li><a rel="nofollow" href="http://www.w3.org/TR/IndexedDB/">IndexedDB API</a></li>
+              </ul>
+            </li>
+            <li>Ability to view previously stored video content, e.g. via
+              <ul>
+                <li>The <a rel="nofollow" href="http://www.w3.org/TR/html5/single-page.html#the-video-element">HTML5 video element</a> using a reference to a locally-stored file, provided through the <a rel="nofollow" href="http://www.w3.org/TR/FileAPI/">File API</a></li>
+                <li>The <a rel="nofollow" href="http://www.w3.org/TR/html5/single-page.html#the-video-element">HTML5 video element</a> using a reference to a video stored in browser-internal storage, and accessed via the <a rel="nofollow" href="http://www.w3.org/TR/IndexedDB/">IndexedDB API</a></li>
+              </ul>
+            </li>
+            <li>Ability to view previously stored protected video content, e.g. via the <a rel="nofollow" href="https://dvcs.w3.org/hg/html-media/raw-file/tip/encrypted-media/encrypted-media.html">HTML5 Encrypted Media Extensions</a></li>
+          </ul>
+        </li>
+        <li>Copy via local network
+          <ul>
+            <li>A method of discovering local networked devices with storage capability</li>
+            <li>A method of transfer video files in the storage via local network</li>
+          </ul>
+        </li>
+      </ul>
+      <h2><span id="9._.22Use_Case_Nine_.E2.80.93_Watch_and_Record.22">9. &quot;Use Case Nine – Watch and Record&quot;</span></h2>
+      <p>Description: Using a web browser, a user watches a video and records it for later playback at the same time.</p>
+      <p>Need/justification: Ability to record a video for later playback while simultaneously watching the same video is a basic thing that many users will expect.</p>
+      <p>Status: WIP</p>
+      <p>Category: TBD, per <a rel="nofollow" href="http://www.w3.org/2011/webtv/wiki/Main_Page#Template_for_Use_Cases">Template for Use Cases</a>. It is unclear whether the following requirements can be met with current specifications or implementations.</p>
+      <p>Requirements:</p>
+      <ul>
+        <li><strong>Accessibility
+          </strong>
+          <ul>
+            <li><strong>The tablet has built-in or added on Assistive Technology</strong></li>
+            <li><strong>Content presented to Subscriber is WCAG20 conformant</strong></li>
+            <li><strong>The User Agent is UAAG20 conformant </strong></li>
+          </ul>
+          Recording while watching
+          <ul>
+            <li>Ability to store video content accessed via the <a rel="nofollow" href="http://www.w3.org/TR/html5/single-page.html#the-video-element">HTML5 video element</a>, while the video is being presented in the browser.</li>
+          </ul>
+        </li>
+        <li>Content protection
+          <ul>
+            <li>Ability to store video content in a protected format, as applicable.</li>
+          </ul>
+        </li>
+        <li>Storage
+          <ul>
+            <li>An adequately-sized storage medium; at least enough to store several full movies, e.g. 32GB</li>
+            <li>A method of accessing the storage medium to save videos, e.g.
+              <ul>
+                <li>For local filesystem storage, the <a rel="nofollow" href="http://dev.w3.org/2009/dap/file-system/file-writer.html">File Writer API</a></li>
+                <li>For browser-internal storage, the <a rel="nofollow" href="http://www.w3.org/TR/IndexedDB/">IndexedDB API</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>Playback
+          <ul>
+            <li>Ability to playback the stored video.</li>
+          </ul>
+        </li>
+      </ul>
+      <h2><span id="10._.22Use_Case_Ten_.E2.80.93_Sync_Among_Browser-_and_non-Browser_Devices.22">10. &quot;Use Case Ten – Sync Among Browser- and non-Browser Devices&quot;</span></h2>
+      <ul>
+        <li>Contributor: Sheau Ng (NBCU)</li>
+        <li>Prerequisite:
+          <ul>
+            <li>User has content services on non-browser based devices (e.g., Smart TV, STB, etc.) and browser-based devices (e.g., PC)</li>
+            <li>TV service provider offers services on multiple platforms, including browser and non-browser platforms.</li>
+            <li>All devices have ability to recognize the content/program that is displaying on TV.</li>
+            <li>All devices have been previously joined to the user's home network and identified as belonging to the different members of the family.</li>
+            <li>Different members of the family use a different companion device</li>
+            <li>TV program has multiple content elements that are uniquely suited for different platforms.</li>
+            <li><strong>The tablet has built-in or added on Assistive Technology</strong></li>
+            <li><strong>Content presented to Subscriber is WCAG20 conformant</strong></li>
+            <li><strong>The User Agent is UAAG20 conformant</strong></li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>Use Case:
+          <ul>
+            <li>User is watching a Game Show on TV with family members
+              <ul>
+                <li>A competition among several contestants is showing on TV</li>
+                <li>A prompt appears on TV asking user to opt in to interactive mode</li>
+                <li>User confirms to opt in.</li>
+              </ul>
+            </li>
+            <li>Companion devices (App on tablet) and browser on laptop receive notifications of incoming content
+              <ul>
+                <li>All devices are automatically synchronized to the program on TV</li>
+                <li>Each device displaying different pieces of content synchronous to the TV show</li>
+                <li>Family members independently interact with the TV show</li>
+                <li><strong>Content presented to Subscriber is WCAG20 conformant</strong></li>
+              </ul>
+            </li>
+            <li>Game Show prompts everyone on their companion device to rank the contestants
+              <ul>
+                <li>TV Show displays in real-time the family's vote on the contestants</li>
+                <li>TV Show also displays in real-time the family's vote along with the general viewers' vote</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+  </div>  
+ </div> 
+</div>
+</body>
+</html>
